@@ -15,18 +15,30 @@ This project provides a step-by-step workflow for:
 - Includes code and explanations for data cleaning, feature extraction, model training, and result visualization
 - Serves as a learning resource or starting point for your own sentiment analysis projects
 
+## Dataset
+
+This project uses the Twitter Sentiment Analysis Dataset from Kaggle.
+
+    Source: https://www.kaggle.com/datasets/kazanova/sentiment140
+
+    Format: CSV file with columns for sentiment label, tweet ID, date, query, user, and tweet text.
+
+##  To use the dataset:
+
+    Download the CSV file from the Kaggle link above.
+
+    Place the CSV file in the project directory, or update the notebook’s data loading path to match your download location.
+
+    Note: The dataset is not included in this repository due to size constraints. Please download it manually using the link above.
+
 ## Getting Started
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/sentiment-analysis-notebook.git
-
-text
 2. Install the required packages:
 
 pip install pandas scikit-learn matplotlib seaborn
 
-text
 3. Open the notebook file (`.ipynb`) in Jupyter or VS Code.
 
 ## License
